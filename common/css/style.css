@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&family=Asul&family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&family=Concert+One&family=Eczar&family=Fruktur&family=Kavoon&family=Neuton&family=Roboto:ital,wght@0,100;0,300;1,100&family=Space+Mono&family=Tillana&family=Work+Sans&display=swap');
+
+body{
+    background: url(/images/img_bg_01.jpg);
+    background-size: 100%;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+.container{
+    max-width: 1024px;
+    margin: 40px auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 24px;
+} 
+h1{
+    font-size: 32px;
+    font-weight: 500;
+    color: #fff;
+    margin: 32px auto;
+}
+p{
+    font-size: 16px;
+    font-weight: 200;
+    color: #fff;
+    margin: 32px 0 0 0;
+}
+.center-italic-bg{
+font-size: 20px;
+font-weight: 200;
+text-align: center;
+font-style: italic;
+}
+.social-icons{
+    display: flex;
+}
+.social-icons li svg{
+    width: 20px;
+    fill: #fff;
+}
+.social-icons li{
+    padding: 16px;
+}
+.social-icons li:hover{
+    opacity: 40%;
+}
